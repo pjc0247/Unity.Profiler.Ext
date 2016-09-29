@@ -24,3 +24,10 @@ __Profiler.Ext 사용 시__<br>
 * Window/Profiler.Ext 버튼을 클릭하면 프로파일러가 표시됩니다.
 
 ![e](menuitem.png)
+
+
+제한사항
+----
+* 에디터 실행만 지원
+* `Update` 메소드만 지원
+    * 코루틴 / 이벤트 핸들러등은 TODO
