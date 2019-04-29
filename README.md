@@ -1,6 +1,6 @@
 Unity.Profiler.Ext
 ====
-유니티 프로파일러에 정확한 콜그래프를 추가해줍니다.
+Adds deep call-graph into Unity's profiler.
 
 ```cs
 public void Update()
@@ -12,13 +12,13 @@ public void Update()
 }
 ```
 
-__일반적인 유니티 프로파일러__<br>
+__Without Unity.Profiler.Ext__<br>
 ![before](before_pfext.PNG)<br>
 <br>
-__Profiler.Ext 사용 시__<br>
+__After enabling Unity.Profiler.Ext__<br>
 ![after](after_pfext.PNG)<br>
 
-사용법
+Usage
 ----
 * [다운로드](https://github.com/pjc0247/Unity.Profiler.Ext/releases) 페이지에서 다운받은 패키지를 추가합니다.
 * Window/Profiler.Ext 버튼을 클릭하면 프로파일러가 표시됩니다.
@@ -26,7 +26,7 @@ __Profiler.Ext 사용 시__<br>
 ![e](menuitem.png)
 
 
-제한사항
+Limitations
 ----
 * 에디터 실행만 지원
 * `Update` 메소드만 지원
